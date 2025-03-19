@@ -56,10 +56,12 @@ public class Calendario {
                     }
                     break;
                 case "aprile":
-                    if (giorno == 25 || giorno == 21) {
-                        System.out.println("Festivo!!");
-                    } else if (giorno <= 8) {
-                        System.out.println("JAVA");
+                    if (giorno == 25) {
+                        System.out.println("Anniversario dell'indipendenza!!");
+                    } else if (giorno == 21) {
+                        System.out.println("Pasqua!!");
+                    } else if(giorno <= 8) {
+                        System.out.println("Java"); 
                     } else if (giorno >= 9 && giorno <= 17) {
                         System.out.println("Database");
                     } else if (giorno >= 18 && giorno <= 23) {
@@ -70,7 +72,7 @@ public class Calendario {
                     break;
                 case "maggio":
                     if (giorno == 1) {
-                        System.out.println("Festivo!!");
+                        System.out.println("Festa dei lavoratori!!");
                     } else if (giorno <= 8) {
                         System.out.println("Spring");
                     } else if (giorno >= 9 && giorno <= 21) {
