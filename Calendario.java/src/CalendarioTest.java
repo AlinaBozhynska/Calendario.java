@@ -2,10 +2,10 @@ public class CalendarioTest {
 
     public static void main(String[] args) {
         Calendario calendario1 = new Calendario();
-        calendario1.mese = "febbraio";
-        calendario1.giorno = 30;
+        calendario1.mese = "aprile";
+        calendario1.giorno = 25;
 
-        System.out.println(calendario1.verifyDate());
+        calendario1.printModule();
 
     }
     
