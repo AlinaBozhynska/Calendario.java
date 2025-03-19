@@ -31,4 +31,9 @@ public class Calendario {
         return false;
     } 
     
+    public void printModule() {
+        if(verifyDate()) {}
+
+
+    }
 }
